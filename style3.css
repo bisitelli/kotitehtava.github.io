@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcomesign{
+    text-align: center;
+}
+
+.navbar{
+    padding: 10px;
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.navbar-container{
+ display: flex;
+}
+
+.navbar-container div{
+    flex: 1;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #5865F2;
+    border-radius: 30px;
+    background-color: #5865F2;
+}
+
+.navbar a:hover{
+    color: #5865F2;
+    background-color: white;
+}
+
+.navbarp3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+.navbarp3 ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    padding-top: 300px;
+}
+
+.navbarp3 li{
+    margin-bottom: 10px;
+}
+
+.navbarp3 a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: solid 1px #5865F2;
+    background-color: #5865F2;
+    border-radius: 30px;
+}
+
+.navbarp3 a:hover{
+    color: #5865F2;
+    background-color: white;
+}
+
+main{
+    text-align: center;
+    padding: 10px;
+}
+
+
